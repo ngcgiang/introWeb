@@ -1,0 +1,49 @@
+*{
+    position: relative;
+}
+
+body{
+    background-color: bisque;
+}
+
+#profile{
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    top: 62px;
+    left: 300px;
+    border: 6px solid;
+    border-color: #8b3200;
+    border-radius: 12px;
+}
+
+.img{
+    width: 300px;
+    height: auto;
+    position: relative;
+    top: 55px;
+    left: 600px;
+    border-radius: 8px;
+}
+
+.infor{
+    left: 128px;
+    bottom: 340px;
+}
+
+.infor h1{
+    left: 40px;
+    color: #cc6328;;
+}
+
+.infor li{
+    list-style: none;
+    font-size: 28px;
+    padding: 8px;
+    color: #ca6523;
+}
+
+.returnButton img{
+    width: 40px;
+    left: 336px;
+}
