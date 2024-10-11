@@ -2,6 +2,18 @@
     position: relative;
 }
 
+.header {
+    position: absolute;
+    top: -16px;
+    left: 45%;
+}
+
+.header p{
+    color: #ff2323c2;
+    font-size: 36px;
+    font-weight: bold;
+}
+
 body{
     background-color: bisque;
 }
@@ -10,7 +22,7 @@ body{
     width: 1000px;
     height: 500px;
     position: relative;
-    top: 62px;
+    top: 72px;
     left: 300px;
     border: 6px solid;
     border-color: #8b3200;
