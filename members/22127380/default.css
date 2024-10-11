@@ -1,7 +1,9 @@
 body {
     background-color: beige;
 }
-img {
+#myPic {
+    width: 400px;
+    height: 400px;
     position: relative;
     top: 55px;
     left: 500px;
@@ -33,4 +35,10 @@ img {
     left: 300px;
     border: 2px solid;
     border-color: brown;
+}
+#back {
+    width: 50px;
+    position: absolute;
+    top: 430px;
+    left: 30px;
 }
