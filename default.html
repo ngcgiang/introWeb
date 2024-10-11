@@ -7,18 +7,26 @@
         <link rel="stylesheet" href="default.css" />
     </head>
     <body>
-        <p>OUR GROUP</p>
-        <img
-            src="images/ourGroup.png"
-            alt="Our Group Picture"
-            height="500"
-            width="510"
-            usemap="#link"
-        />
+        <p id="header">OUR GROUP</p>
+        <div id="combine">
+            <img
+                id="groupPic"
+                src="images/ourGroup.png"
+                alt="Group_Picture"
+                usemap="#link"
+            />
+            <p class="infor">Group Name: ...</p>
+            <p class="infor">Members</p>
+            <ul>
+                <li class="infor">Nguyễn Huy Tấn - 22127380</li>
+                <li class="infor">Nguyễn Ngọc Giang - 22127093</li>
+                <li class="infor">Nguyễn Văn Xanh - 22127467</li>
+            </ul>
+        </div>
         <map name="link">
             <area
                 shape="circle"
-                coords="386,66,60"
+                coords="302,50,45"
                 href="members/22127380/22127380.html"
                 title="Click to get 22127380 profile"
                 alt=""
@@ -27,9 +35,9 @@
                 target="_self"
                 title="Click to get 22127093 profile"
                 alt=""
-                coords="606,601,309,310"
+                coords="310,276,20"
                 href="members/22127093/22127093.html"
-                shape="rect"
+                shape="circle"
             />
         </map>
     </body>

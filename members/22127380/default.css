@@ -34,7 +34,8 @@ body {
     top: 150px;
     left: 300px;
     border: 2px solid;
-    border-color: brown;
+    border: 6px solid rgb(197, 125, 42);
+    border-radius: 12px;
 }
 #back {
     width: 50px;
