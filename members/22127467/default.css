@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(205, 223, 243);
+}
+h1 {
+    font-size: 50px;
+    position: absolute;
+    color: rgb(2, 63, 2);
+    left: 40%; 
+}
+#combine {
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    top: 150px;
+    left: 300px;
+    border: 6px solid;
+    border-radius: 12px;
+    border-color: rgb(69, 17, 153);
+}
+#Picture {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 55px;
+    left: 500px;
+}
+.infor {
+    color: rgb(24, 9, 226);
+}
+.infor p {
+    font-size: 25px;
+    line-height: 2;
+    position: absolute;
+    left: 80px;
+    top: 120px;
+}
+.infor h2 {
+    font-size: 40px;
+    position: absolute;
+    left: 120px;
+    top: 50px;
+}
+#back_button {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+}
